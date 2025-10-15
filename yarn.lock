@@ -221,7 +221,7 @@
   optionalDependencies:
     lmdb "3.4.2"
 
-"@angular/cdk@^20.2.8", "@angular/cdk@20.2.8":
+"@angular/cdk@^20.2.8", "@angular/cdk@>=19.0.0", "@angular/cdk@20.2.8":
   version "20.2.8"
   resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-20.2.8.tgz"
   integrity sha512-r2GzcgwkRETKUmFhGfmT+T0RYRcYb/JrpADTnUG3sOkHY+05r7YGkmmXMjUIB0nVERqVuFBM1mKVcIFp9SJDmQ==
@@ -253,7 +253,7 @@
     yargs "18.0.0"
     zod "3.25.76"
 
-"@angular/common@^20.0.0 || ^21.0.0", "@angular/common@20.3.4":
+"@angular/common@^20.0.0 || ^21.0.0", "@angular/common@>=20.0.0", "@angular/common@20.3.4":
   version "20.3.4"
   resolved "https://registry.npmjs.org/@angular/common/-/common-20.3.4.tgz"
   integrity sha512-hBQahyiHEAtc30a8hPOuIWcUL7j8189DC0sX4RiBd/wtvzH4Sd3XhguxyZAL6gHgNZEQ0nKy0uAfvWB/79GChQ==
@@ -281,7 +281,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^20.0.0", "@angular/core@^20.0.0 || ^21.0.0", "@angular/core@20.3.4":
+"@angular/core@^20.0.0", "@angular/core@^20.0.0 || ^21.0.0", "@angular/core@>=20.0.0", "@angular/core@20.3.4":
   version "20.3.4"
   resolved "https://registry.npmjs.org/@angular/core/-/core-20.3.4.tgz"
   integrity sha512-qLYVXcpSBmsA/9fITB1cT2y37V1Yo3ybWEwvafnbAh8izabrMV0hh+J9Ajh9bPk092T7LS8Xt9eTu0OquBXkbw==
@@ -309,7 +309,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser@^20.0.0", "@angular/platform-browser@^20.0.0 || ^21.0.0", "@angular/platform-browser@20.3.4":
+"@angular/platform-browser@^20.0.0", "@angular/platform-browser@^20.0.0 || ^21.0.0", "@angular/platform-browser@>=20.0.0", "@angular/platform-browser@20.3.4":
   version "20.3.4"
   resolved "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-20.3.4.tgz"
   integrity sha512-8eoHC+vk7scb24qjlpsirkh1Q17uFyWdhl+u92XNjvimtZRY96oDZeFEDPoexPqtKUQcCOpEPbL8P/IbpBsqYQ==
@@ -1049,6 +1049,13 @@
     "@napi-rs/nice-win32-arm64-msvc" "1.1.1"
     "@napi-rs/nice-win32-ia32-msvc" "1.1.1"
     "@napi-rs/nice-win32-x64-msvc" "1.1.1"
+
+"@ngbracket/ngx-layout@^20.0.1":
+  version "20.0.1"
+  resolved "https://registry.npmjs.org/@ngbracket/ngx-layout/-/ngx-layout-20.0.1.tgz"
+  integrity sha512-i8GhyKDzYjAPld7WLZTQnx7rxnuRIdFGBFUdGBUjeAkqkSw4bueMKEc+90lAH93uG70Hr5MXd9XtuoTWyEqzxA==
+  dependencies:
+    tslib "^2.5.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -4850,6 +4857,11 @@ tslib@^2.1.0, tslib@^2.3.0, tslib@2.4.0:
   version "2.4.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
+
+tslib@^2.5.0:
+  version "2.8.1"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tsutils@^3.21.0:
   version "3.21.0"
