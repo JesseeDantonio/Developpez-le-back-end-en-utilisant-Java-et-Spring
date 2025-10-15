@@ -221,7 +221,7 @@
   optionalDependencies:
     lmdb "3.4.2"
 
-"@angular/cdk@^20.2.8", "@angular/cdk@>=19.0.0", "@angular/cdk@20.2.8":
+"@angular/cdk@^20.0.0", "@angular/cdk@^20.2.8", "@angular/cdk@>=19.0.0", "@angular/cdk@20.2.8":
   version "20.2.8"
   resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-20.2.8.tgz"
   integrity sha512-r2GzcgwkRETKUmFhGfmT+T0RYRcYb/JrpADTnUG3sOkHY+05r7YGkmmXMjUIB0nVERqVuFBM1mKVcIFp9SJDmQ==
@@ -253,7 +253,7 @@
     yargs "18.0.0"
     zod "3.25.76"
 
-"@angular/common@^20.0.0 || ^21.0.0", "@angular/common@>=20.0.0", "@angular/common@20.3.4":
+"@angular/common@^20.0.0", "@angular/common@^20.0.0 || ^21.0.0", "@angular/common@>=20.0.0", "@angular/common@20.3.4":
   version "20.3.4"
   resolved "https://registry.npmjs.org/@angular/common/-/common-20.3.4.tgz"
   integrity sha512-hBQahyiHEAtc30a8hPOuIWcUL7j8189DC0sX4RiBd/wtvzH4Sd3XhguxyZAL6gHgNZEQ0nKy0uAfvWB/79GChQ==
@@ -295,7 +295,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/material@^20.2.8":
+"@angular/material@^20.0.0", "@angular/material@^20.2.8":
   version "20.2.8"
   resolved "https://registry.npmjs.org/@angular/material/-/material-20.2.8.tgz"
   integrity sha512-JexykfKGTM+oepHZVVPRGCJOs1PWVzdvzonSJ3xuchkNeUZPbrGlWb+wZj84RgpjSGj4ktJ1artrVH/yvLPuhw==
@@ -3784,6 +3784,13 @@ negotiator@0.6.3:
   version "0.6.3"
   resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
+
+ngx-custom-material-file-input@^20.0.0:
+  version "20.0.0"
+  resolved "https://registry.npmjs.org/ngx-custom-material-file-input/-/ngx-custom-material-file-input-20.0.0.tgz"
+  integrity sha512-onCzwvBZWcv7+b9QSCUvUsbyrL/shSY1F1686f4FJuBBdt4erUQkci189kMwxZPwL6HRYAj9hnO9lCewBvKk3g==
+  dependencies:
+    tslib "^2.3.0"
 
 node-addon-api@^6.1.0:
   version "6.1.0"
