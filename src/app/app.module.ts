@@ -12,7 +12,7 @@ import { HTTP_INTERCEPTORS, provideHttpClient, withInterceptorsFromDi } from '@a
 import { JwtInterceptor } from './interceptors/jwt.interceptor';
 import { MeComponent } from './components/me/me.component';
 import { MatCardModule } from '@angular/material/card';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { FlexLayoutModule } from '@ngbracket/ngx-layout';
 
 const materialModule = [
   MatButtonModule,
