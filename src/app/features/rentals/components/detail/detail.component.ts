@@ -10,9 +10,10 @@ import { MessagesService } from '../../services/messages.service';
 import { RentalsService } from '../../services/rentals.service';
 
 @Component({
-  selector: 'app-detail',
-  templateUrl: './detail.component.html',
-  styleUrls: ['./detail.component.scss']
+    selector: 'app-detail',
+    templateUrl: './detail.component.html',
+    styleUrls: ['./detail.component.scss'],
+    standalone: false
 })
 export class DetailComponent implements OnInit {
 

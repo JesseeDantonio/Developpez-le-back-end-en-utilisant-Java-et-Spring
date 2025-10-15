@@ -3,9 +3,10 @@ import { AuthService } from 'src/app/features/auth/services/auth.service';
 import { User } from 'src/app/interfaces/user.interface';
 
 @Component({
-  selector: 'app-me',
-  templateUrl: './me.component.html',
-  styleUrls: ['./me.component.scss']
+    selector: 'app-me',
+    templateUrl: './me.component.html',
+    styleUrls: ['./me.component.scss'],
+    standalone: false
 })
 export class MeComponent implements OnInit {
 

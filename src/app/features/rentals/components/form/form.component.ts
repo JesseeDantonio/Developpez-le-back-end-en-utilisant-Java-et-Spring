@@ -8,9 +8,10 @@ import { Rental } from '../../interfaces/rental.interface';
 import { RentalsService } from '../../services/rentals.service';
 
 @Component({
-  selector: 'app-form',
-  templateUrl: './form.component.html',
-  styleUrls: ['./form.component.scss']
+    selector: 'app-form',
+    templateUrl: './form.component.html',
+    styleUrls: ['./form.component.scss'],
+    standalone: false
 })
 export class FormComponent implements OnInit {
 

@@ -3,9 +3,10 @@ import { User } from 'src/app/interfaces/user.interface';
 import { UserService } from 'src/app/services/user.service';
 
 @Component({
-  selector: 'app-owner-info',
-  templateUrl: './owner-info.component.html',
-  styleUrls: ['./owner-info.component.scss']
+    selector: 'app-owner-info',
+    templateUrl: './owner-info.component.html',
+    styleUrls: ['./owner-info.component.scss'],
+    standalone: false
 })
 export class OwnerInfoComponent implements OnChanges {
 
