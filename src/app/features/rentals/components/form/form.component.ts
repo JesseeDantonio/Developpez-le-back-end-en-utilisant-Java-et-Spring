@@ -8,10 +8,10 @@ import { Rental } from '../../interfaces/rental.interface';
 import { RentalsService } from '../../services/rentals.service';
 
 @Component({
-    selector: 'app-form',
-    templateUrl: './form.component.html',
-    styleUrls: ['./form.component.scss'],
-    standalone: false
+  selector: 'app-form',
+  templateUrl: './form.component.html',
+  styleUrls: ['./form.component.scss'],
+  standalone: false
 })
 export class FormComponent implements OnInit {
 
@@ -52,6 +52,11 @@ export class FormComponent implements OnInit {
       formData.append('picture', this.rentalForm!.get('picture')?.value._files[0]);
     }
     formData.append('description', this.rentalForm!.get('description')?.value);
+    const ownerId = this.sessionService.user?.id;
+    if (ownerId != null) {
+      formData.append('ownerId', String(ownerId));
+    }
+
 
     if (!this.onUpdate) {
       this.rentalsService
@@ -67,7 +72,7 @@ export class FormComponent implements OnInit {
   private initForm(rental?: Rental): void {
     console.log(rental);
     console.log(this.sessionService.user!.id);
-    if( (rental !== undefined) && (rental?.owner_id !== this.sessionService.user!.id)) {
+    if ((rental !== undefined) && (rental?.owner_id !== this.sessionService.user!.id)) {
       this.router.navigate(['/rentals']);
     }
     this.rentalForm = this.fb.group({
