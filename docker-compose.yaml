@@ -1,3 +1,7 @@
+# ⚠️ Attention : 
+# Les identifiants de connexion fournis dans ce projet sont exclusivement réservés à un usage local, pour l'essai et la validation du projet.  
+# Ils ne doivent en aucun cas être utilisés en production ou pour des données sensibles.
+
 services:
   db:
     image: mysql
