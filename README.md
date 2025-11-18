@@ -1,55 +1,81 @@
-# Estate
+# 🚀 Application de Location Immobilière
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+Projet réalisé dans le cadre du projet N°3, de la formation OpenClassrooms, visant à développer une plateforme complète de gestion de **location de biens immobiliers** (appartements, maisons, etc.) avec un **back-end Java Spring Boot** et un **front-end Angular**.
 
-## Start the project
+---
 
-Git clone:
+## 📝 Mission
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P3-Full-Stack-portail-locataire
+Développer une application permettant aux utilisateurs de créer, voir, envoyer des messages aux propriétaires de locaction. L’application se compose d’une API REST (back-end) et d’une interface utilisateur moderne (front-end).
 
-Go inside folder:
+---
 
-> cd P3-Full-Stack-portail-locataire
+## ✨ Fonctionnalités principales
 
-Install dependencies:
+- **Gestion des utilisateurs** (inscription, connexion, profil)
+- **Liste de logements** disponibles (appartements, maisons, etc.)
+- **Détail de logement** (voir une location, envoyer des messages)
+- **Gestion de logements** (Création via formulaire)
+- **Connexion sécurisée entre le front-end et le back-end**
 
-> npm install
+---
 
-Launch Front-end:
+## 🚀 Stack technique
 
-> npm run start;
+- **Back-end** : Java 17, Spring Boot, Spring Data JPA, REST API, H2/MySQL, Swagger
+- **Front-end** : Angular 20, TypeScript, RxJS, Angular Material
+- **Outils** : Docker, Docker Compose, VS Code, Postman, Mockoon, IntelliJ, PhpMyAdmin
 
+---
 
-## Ressources
-
-### Mockoon env
-
-Download Mockoon here: https://mockoon.com/download/
-
-After installing you could load the environement
-
-> ressources/mockoon/rental-oc.json
-
-directly inside Mockoon 
-
-> File > Open environmement
-
-For launching the Mockoon server click on play bouton
-
-Mockoon documentation: https://mockoon.com/docs/latest/about/
-
-### Postman collection
-
-For Postman import the collection
-
-> ressources/postman/rental.postman_collection.json 
-
-by following the documentation: 
-
-https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman
+## 📦 Installation et lancement
 
 
-### MySQL
+### 1. Cloner le projet back end
 
-SQL script for creating the schema is available `ressources/sql/script.sql`
+```bash
+git clone https://github.com/JesseeDantonio/Chatop-API-Backend
+
+cd Chatop-API-Backend
+```
+
+### 2. Cloner, initialiser le projet front end
+
+```bash
+git clone https://github.com/JesseeDantonio/Developpez-le-back-end-en-utilisant-Java-et-Spring
+
+cd Developpez-le-back-end-en-utilisant-Java-et-Spring
+
+npm install
+```
+
+### 3. Lancer le fichier docker compose
+
+```bash
+cd Developpez-le-back-end-en-utilisant-Java-et-Spring
+
+# ⚠️ Attention : 
+# Les identifiants de connexion fournis dans ce projet sont exclusivement réservés à un usage local, pour l'essai et la validation du projet.  
+# Ils ne doivent en aucun cas être utilisés en production ou pour des données sensibles.
+
+docker compose up
+```
+
+### 4. Importer la structure de la base de données
+```bash
+# Importer le script SQL nommé ChaTop dans PhpMyAdmin
+# Les identifiants sont dans le fichier docker compose
+```
+
+### 5. Lancer le back-end
+
+```bash
+# Lancer le run dans la classe principale du projet
+```
+
+### 6. Lancer le front-end
+
+```bash
+npm run start
+```
+
