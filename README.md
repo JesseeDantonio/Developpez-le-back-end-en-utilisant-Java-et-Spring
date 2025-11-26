@@ -52,7 +52,7 @@ npm install
 ### 3. Lancer le fichier docker compose
 
 ```bash
-cd Developpez-le-back-end-en-utilisant-Java-et-Spring
+cd Chatop-API-Backend
 
 # ⚠️ Attention : 
 # Les identifiants de connexion fournis dans ce projet sont exclusivement réservés à un usage local, pour l'essai et la validation du projet.  
