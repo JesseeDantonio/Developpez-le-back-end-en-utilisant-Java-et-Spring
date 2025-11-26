@@ -22,7 +22,7 @@ Développer une application permettant aux utilisateurs de créer, voir, envoyer
 
 ## 🚀 Stack technique
 
-- **Back-end** : Java 17, Spring Boot, Spring Data JPA, REST API, H2/MySQL, Swagger
+- **Back-end** : Java 21, Spring Boot, Spring Data JPA, REST API, H2/MySQL, Swagger
 - **Front-end** : Angular 20, TypeScript, RxJS, Angular Material
 - **Outils** : Docker, Docker Compose, VS Code, Postman, Mockoon, IntelliJ, PhpMyAdmin
 
