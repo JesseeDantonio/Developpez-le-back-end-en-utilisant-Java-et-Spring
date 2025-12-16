@@ -1,12 +1,12 @@
 # 🚀 Application de Location Immobilière
 
-Projet réalisé dans le cadre du projet N°3, de la formation OpenClassrooms, visant à développer une plateforme complète de gestion de **location de biens immobiliers** (appartements, maisons, etc.) avec un **back-end Java Spring Boot** et un **front-end Angular**.
+Projet réalisé dans le cadre du projet N°3, de la formation OpenClassrooms.
 
 ---
 
 ## 📝 Mission
 
-Développer une application permettant aux utilisateurs de créer, voir, envoyer des messages aux propriétaires de locaction. L’application se compose d’une API REST (back-end) et d’une interface utilisateur moderne (front-end).
+Développer le back-end (API REST) d'une application permettant aux utilisateurs de créer, voir, envoyer des messages aux propriétaires de location. 
 
 ---
 
